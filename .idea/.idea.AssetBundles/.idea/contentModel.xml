@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="A:\Unity\Samples\AssetBundles" t="IncludeRecursive">
+      <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="AssetBundles.sln" t="IncludeFlat" />
+      <e p="Assets" t="Include">
+        <e p="Editor" t="Include">
+          <e p="CreateAssetBundles.cs" t="Include" />
+        </e>
+        <e p="Scripts" t="Include">
+          <e p="API.cs" t="Include" />
+          <e p="ContentController.cs" t="Include" />
+          <e p="PlaceContent.cs" t="Include" />
+          <e p="ToggleAR.cs" t="Include" />
+        </e>
+      </e>
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="Temp\bin" t="ExcludeRecursive" />
+    </e>
+    <e p="C:\Users\work\AppData\Local\JetBrains\Rider2020.1\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\work\AppData\Local\JetBrains\Rider2020.1\resharper-host\Local\Transient\ReSharperHost\v201\SolutionCaches\_AssetBundles.1401681913.00" t="ExcludeRecursive" />
+  </component>
+</project>

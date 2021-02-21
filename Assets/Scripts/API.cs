@@ -5,7 +5,8 @@ using UnityEngine.Networking;
 
 public class API : MonoBehaviour {
 
-    const string BundleFolder = "https://www.matthewhallberg.com/AssetBundles/";
+    const string Asset_01 = "https://drive.google.com/uc?id=1566NZji-XOM6dE2cU4xrzm2WkgA9Oj1c&export=download";
+    // const string BundleFolder = "https://www.matthewhallberg.com/AssetBundles/";
 
     public void GetBundleObject(string assetName, UnityAction<GameObject> callback, Transform bundleParent) {
         StartCoroutine(GetDisplayBundleRoutine(assetName, callback, bundleParent));
@@ -13,7 +14,7 @@ public class API : MonoBehaviour {
 
     IEnumerator GetDisplayBundleRoutine(string assetName, UnityAction<GameObject> callback, Transform bundleParent) {
 
-        string bundleURL = BundleFolder + assetName + "-";
+        string bundleURL = Asset_01;
 
         //append platform to asset bundle name
 #if UNITY_ANDROID
